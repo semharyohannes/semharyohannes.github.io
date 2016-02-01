@@ -156,8 +156,8 @@ body {
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: blue;
+  border-color: lightpink;
 }
 
 /* nav background on mobile */
