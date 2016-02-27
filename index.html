@@ -1,75 +1,84 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <meta charset="utf-8">
-   <title>Semhar-Welcome to my first website</title>
-<link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-73611675-1', 'auto');
-  ga('send', 'pageview');
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">  
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Me</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Extra</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </div>
+    </div>
 
-</script>
- </head>
- <body>
-     <header>
-      <a href="index.html" id="logo">
-        <h1>Semhar Yohannes</h1>
-        <h2>Digital Data Strategist</h2>
-      </a>
-      <nav>
-         <ul>
-           <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li> <a href="about.html">About</a></li>
-          <li> <a href= "contact.html">Contact</a></li>
-          </ul>
-        </nav>
-     </header>
-      <div id="wrapper">
-      <section>
-        <ul id="gallery">
-              <li>
-                  <a href="img/png.jpg" alt="">
-                  <img src="img/png.jpg" alt="">
-                  <p>Proctor and Gamble.</p>
-                  </a>
-              </li>
-              <li>
-                  <a href="img/adlibris.jpg" alt="">
-                  <img src="img/adlibris.jpg" alt="">
-                  <p>Adlibris </p>
-                  </a>
-              </li>
-              <li>
-                  <a href="img/uncef.jpg" alt="">
-                  <img src="img/uncef.jpg" alt="">
-                  <p>Unicef</p>
-                  </a>
-              </li>
-              <li>
-                  <a href="img/trans.jpg" alt="">
-                  <img src="img/trans.jpg" alt="">
-                  <p>Transdev</p>
-                  </a>
-              </li>
-              <li>
-                  <a href="img/hels.jpg" alt="">
-                  <img src="img/hels.jpg" alt="">
-                  <p>Helsingborg Komun</p>
-                  </a>
-              </li>   
-          </ul>
-      </section>
-      <footer>
-        <a href="https://se.linkedin.com/in/semharyohannes"><img src="img/linkedin.png" alt="Linkedin logo" class="social-icon"></a>
-       <p>&copy; 2016 Semhar Yohannes.</p>
-       </footer>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Digital Data Strategist.</h1>
+        <p>Senza andata e ritorno</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div> 
+    
+    <div class="neighborhood-guides">
+    <div class="container">
+    <h2>Neighborhood Guides</h2>
+    <p>Not sure where to stay? We've created neighborhoood guides for cities all around the world.</p>
+    <div class=row>
+    <div class="col-md-4">
+    <div class="thumbnail">
+    <img src="http://goo.gl/0sX3jq">
+    </div>
+    <div class="thumbnail">
+    <img src="http://goo.gl/an2HXY">
+    </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+    <img src="http://goo.gl/Av1pac">
+    </div>
+    <div class="thumbnail">
+    <img src="http://goo.gl/vw43v1">
+    </div>
+    </div>
+     <div class="col-md-4">
+     <div class="thumbnail">
+    <img src="http://goo.gl/0Kd7UO">
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 
- </body>
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Travel</h3>
+			<p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+			<p><a href="#">See how to travel on Airbnb</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Host</h3>
+			<p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+			<p><a href="#">Learn more about hosting</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Trust and Safety</h3>
+			<p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+			<p><a href="#">Learn about trust at Airbnb</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
 </html>
